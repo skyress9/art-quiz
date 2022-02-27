@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+
+  color: #ffffff;
+  line-height: 1.2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  position: relative;
+
+  min-height: 100vh;
+
+  background-color: #000;
+
+  transition: all 1s ease-in-out;
+
+  overflow: hidden;
+}
+
+.container,
+.container-quiz {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+
+  max-width: 1440px;
+  margin: 0 auto;
+
+  transition: all 1s ease-in-out;
+
+}
+
+.container-quiz {
+  max-width: 850px;
+}
+
+.hide {
+  opacity: 0;
+  transform: translate(200%);
+
+  @media (min-width: 768px) {
+    transform: translate(100%);
+  }
+}
+
+.main-page,
+.categories-page,
+.score-page,
+.quiz-page,
+.settings-page   {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  padding-top: 20px;
+
+  row-gap: 20px;
+
+  min-height: 100vh;
+  width: 100%;
+}
+
+@import "blocks/btn";
+@import "blocks/main";
+@import "blocks/categories";
+@import "blocks/footer";
+@import "blocks/settings";
+@import "blocks/quiz";
+@import "blocks/popup";
+@import "blocks/overlay";
+@import "blocks/score";
