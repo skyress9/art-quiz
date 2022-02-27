@@ -34,8 +34,8 @@ class Score {
 
     container.innerHTML += `
     <div class="score-page__nav">
-      <div class="score-page__title">Score</div>
-      <button data-route="categories${this.type[0].toUpperCase() + this.type.slice(1)}" class="btn btn-back__score">Back</button>
+      <div class="score-page__title">Счёт</div>
+      <button data-route="categories${this.type[0].toUpperCase() + this.type.slice(1)}" class="btn btn-back__score">Назад</button>
     </div>`
 
     container.append(cards)

@@ -13,8 +13,8 @@ class Settings {
     container.classList.add('container');
     container.innerHTML = `
     <div class="settings-header">
-      <button data-route="main" class="btn settings-home__btn">Home</button>
-      <div class="settings-header__title">Settings</div>
+      <button data-route="main" class="btn settings-home__btn">Домой</button>
+      <div class="settings-header__title">Настройки</div>
     </div>`;
 
     const content = this.createContent();
@@ -48,7 +48,7 @@ class Settings {
   createVolume() {
     const div = document.createElement('div');
     div.classList.add('settings__item', 'settings-volume');
-    div.innerHTML = `<div class="settings-title settings-volume__title">Volume</div>`;
+    div.innerHTML = `<div class="settings-title settings-volume__title">Громкость</div>`;
 
     const input = document.createElement('input');
     input.classList.add('settings-volume__input');
@@ -80,7 +80,7 @@ class Settings {
   createTimeStatus() {
     const div = document.createElement('div');
     div.classList.add('settings__item', 'settings-time');
-    div.innerHTML = '<div class="settings-title settings-time__title">Time game</div>';
+    div.innerHTML = '<div class="settings-title settings-time__title">Время</div>';
 
     const checkContainer = document.createElement('div');
     checkContainer.classList.add('settings-time__checkbox');
@@ -107,7 +107,7 @@ class Settings {
   createTimeSelect() {
     const div = document.createElement('div');
     div.classList.add('settings__item', 'settings-answer');
-    div.innerHTML = `<div class="settings-title settings-answer__title">Time to answer</div>`;
+    div.innerHTML = `<div class="settings-title settings-answer__title">Время на ответ</div>`;
 
     const inner = document.createElement('div');
     inner.classList.add('settings-answer__inner');

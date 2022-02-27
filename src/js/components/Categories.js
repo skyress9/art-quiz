@@ -20,8 +20,8 @@ class Categories {
         <button data-route="settings" class="categories-header__item btn categories-settings__btn"></button>
       </div>
       <div class="categories-menu">
-        <div class="categories-menu__title">Categories</div>
-        <button data-route="main" class="btn categories-home__btn">Home</button>
+        <div class="categories-menu__title">Категории</div>
+        <button data-route="main" class="btn categories-home__btn">Домой</button>
       </div>
       <div class="categories-cards">
         ${cardsHTML}
@@ -59,10 +59,10 @@ class Categories {
         <img class="categories-cards__card-img ${imgClass}"
           src="https://github.com/skyress9/image-data/blob/master/img/${i}.jpg?raw=true" alt="image">
         <div class="categories-cards__card-bottom">
-          <div class="categories-cards__card-title">Round ${rounds + 1}</div>
+          <div class="categories-cards__card-title">Раунд ${rounds + 1}</div>
           <div class="categories-cards__card-points">${observerAnswer}</div>
         </div>
-        <div id="score" class="categories-card__card-score">Score</div>
+        <div id="score" class="categories-card__card-score">Счёт</div>
       </div>`;
 
 

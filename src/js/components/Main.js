@@ -12,8 +12,8 @@ class Main {
         <btn data-route="settings" class="btn main-settings__btn"></btn>
         <div class="main__logo"></div>
         <div class="main__menu">
-          <button data-route="categoriesArtists" class="btn main__btn">Artists quiz</button>
-          <button data-route="categoriesPictures" class="btn main__btn">Pictures quiz</button>
+          <button data-route="categoriesArtists" class="btn main__btn">Художники</button>
+          <button data-route="categoriesPictures" class="btn main__btn">Картины</button>
         </div>
       </div>
     </div>

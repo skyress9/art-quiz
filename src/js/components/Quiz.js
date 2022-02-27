@@ -89,7 +89,7 @@ class Quiz {
   createTitle(elem) {
     const title = document.createElement('div');
     title.classList.add('quiz__item', 'quiz__question');
-    title.textContent = this.type == 'artists' ? 'Who is the author of this picture?' : `Which is ${elem.author} picture?`;
+    title.textContent = this.type == 'artists' ? 'Кто автор указанной картины?' : `Какую картину написал ${elem.author}?`;
 
     return title;
   }
